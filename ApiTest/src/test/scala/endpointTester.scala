@@ -37,7 +37,7 @@ class endpointTester extends WordSpec with Matchers with ScalatestRouteTest with
 
     val endpoint: String = "https://api.github.com/user"
     val headers = Map("Authorization" -> "token my_oauth_token_here")
-    /*val headers = Seq(RawHeader("-u", "telangn:95503b13fbc59c0afc66083f752cdbe60aa4b97f"))*/
+    /*val headers = Seq(RawHeader("-u", "telangn: my_oath_token_here"))*/
 
     "response is of correct Type" in {
       whenReady(responseFutureGet(endpoint, convertHeaders(headers)))(checkResponseTypeJson)
