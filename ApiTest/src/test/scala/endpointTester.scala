@@ -69,6 +69,16 @@ class endpointTester extends WordSpec with Matchers with ScalatestRouteTest with
       whenReady(responseFuturePostFile(endpoint, fileLocation, convertHeaders(headers)))(checkStatus200)
     }
   }
+
+  "Check Protobuf response" should {
+
+    val endpoint: String = "http://localhost:3000/recording"
+
+    "GET JSON Body and assert" in {
+      whenReady(responseFutureGet(endpoint))(checkRecordingResponse)
+    }
+
+  }
 }
 
 
