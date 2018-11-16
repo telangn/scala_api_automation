@@ -4,7 +4,7 @@
 		module="apitest-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20181109152006"
+		publication="20181115164558"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

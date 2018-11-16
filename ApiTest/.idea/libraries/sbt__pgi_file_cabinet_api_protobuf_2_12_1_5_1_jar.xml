@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: pgi:file-cabinet-api-protobuf_2.12:1.5.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/pgi/file-cabinet-api-protobuf_2.12/jars/file-cabinet-api-protobuf_2.12-1.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/pgi/file-cabinet-api-protobuf_2.12/srcs/file-cabinet-api-protobuf_2.12-1.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

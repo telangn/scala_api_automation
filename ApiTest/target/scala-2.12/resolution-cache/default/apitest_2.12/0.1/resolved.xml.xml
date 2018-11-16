@@ -4,7 +4,7 @@
 		module="apitest_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20181115084926"
+		publication="20181115192652"
 	>
 		<description>
 		ApiTest
@@ -37,5 +37,6 @@
 		<dependency org="com.typesafe.akka" name="akka-http-testkit_2.12" rev="10.1.5" conf="compile->default(compile)"/>
 		<dependency org="org.scalatestplus.play" name="scalatestplus-play_2.12" rev="3.1.2" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.5.18" conf="compile->default(compile)"/>
+		<dependency org="pgi" name="file-cabinet-api-protobuf_2.12" rev="1.5.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
